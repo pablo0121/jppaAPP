@@ -7,6 +7,7 @@ namespace jppaApp
 {
     public partial class App : Application
     {
+        /* Nombre: Juan Pablo Palma Apoderado No.Control: 1221100259 */
         public App()
         {
             InitializeComponent();

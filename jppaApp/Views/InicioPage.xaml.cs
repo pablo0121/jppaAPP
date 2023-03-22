@@ -18,7 +18,7 @@ namespace jppaApp.Views
         {
             InitializeComponent();
         }
-
+        /* Nombre: Juan Pablo Palma Apoderado No.Control: 1221100259 */
         private async void MaterialCard_Clicked(object sender, EventArgs e)
         {
             try

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="jppaApp.Views.DispositivosPage">
     <ContentPage.Content>
+        <!-- Nombre: Juan Pablo Palma Apoderado No.Control: 1221100259 -->
         <StackLayout>
             <Label Text="Dispositivos"
                 HorizontalOptions="CenterAndExpand" 

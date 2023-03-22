@@ -11,7 +11,7 @@ namespace jppaApp.Services
     public class AppService
     {
         public static AppService Instancia = new AppService();
-
+        /* Nombre: Juan Pablo Palma Apoderado No.Control: 1221100259 */
         public async Task<string> IniciarSesionAsync(string usuario, string password)
         {
             string result = "";

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
              x:Class="jppaApp.Views.LoginPage"
              BackgroundColor="AliceBlue">
+    <!-- Nombre: Juan Pablo Palma Apoderado No.Control: 1221100259 -->
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
             <material:MaterialCard Margin="10" Elevation="10" CornerRadius="5">
@@ -10,7 +11,8 @@
                     <Image Source="login" HeightRequest="100" WidthRequest="100"/>
                     <material:MaterialTextField x:Name="TxtUsuario" Placeholder="Ingresa un Usuario" InputType="Default"/>
                     <material:MaterialTextField x:Name="TxtPassword" Placeholder="Contraseña" InputType="Password"/>
-                    <material:MaterialButton x:Name="BtnIngresar" Text="Ingresar" BackgroundColor="Salmon" CornerRadius="7" Clicked="BtnIngresar_Clicked"/>
+                    <material:MaterialButton x:Name="BtnIngresar" Text="Ingresar" BackgroundColor="Salmon" CornerRadius="7" 
+                                             Clicked="BtnIngresar_Clicked"/>
                     <StackLayout Orientation="Horizontal">
                         <material:MaterialChip BackgroundColor="#F2F2F2" Image="google" Text="Google" TextColor="LightCoral" />
                         <material:MaterialChip BackgroundColor="#F2F2F2" Image="facebook" Text="Facebook" TextColor="LightCoral" />
